@@ -9,7 +9,7 @@
 /coverage
 
 # production
-/build
+# /build, TODO: bør måske ignoreres, men jeg kan ikke få deployed koden korrekt pt.
 
 # misc
 .DS_Store
