@@ -3,7 +3,7 @@ import './nav.css'
 
 const NavTemplate = () => {
   return (
-    <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" className="nav">
+    <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar">
       <Container>
       <Navbar.Brand href="#home">Niklas Aavad</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
