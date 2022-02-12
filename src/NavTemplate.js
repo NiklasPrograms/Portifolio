@@ -1,8 +1,9 @@
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap'
+import './nav.css'
 
 const NavTemplate = () => {
   return (
-    <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" className="nav">
       <Container>
       <Navbar.Brand href="#home">Niklas Aavad</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
