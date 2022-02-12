@@ -1,6 +1,4 @@
-import './App.css';
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 const NavTemplate = () => {
   return (

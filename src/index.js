@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import NavTemplate from './NavTemplate'
 import reportWebVitals from './reportWebVitals';
+import Slideshow from './Slideshow';
 
 ReactDOM.render(
   <React.StrictMode>
     <NavTemplate />
+    <Slideshow />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
