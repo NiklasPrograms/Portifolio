@@ -1,14 +1,26 @@
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap'
 import './nav.css'
+import logo from './NA2.png'
 
 const NavTemplate = () => {
+  console.log(logo)
   return (
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar">
       <Container>
-      <Navbar.Brand href="#home">Niklas Aavad</Navbar.Brand>
+      <Navbar.Brand href="#home" className="brand">
+        <img
+          alt=""
+          src={logo}
+          width="40"
+          height="40"
+          className="d-inline-block align-top"
+        />{' '}
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
+          <Nav.Link href="#about">About</Nav.Link>
+          <Nav.Link href="#projects">Projects</Nav.Link>
           <Nav.Link href="#features">Features</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
           <NavDropdown title="Dropdown" id="collasible-nav-dropdown">

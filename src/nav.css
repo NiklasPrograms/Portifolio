@@ -1,3 +1,7 @@
 .navbar {
     box-shadow: 0px 10px 14px 0px rgba(0,0,0,0.85);
 }
+
+.brand {
+    margin-right: 0rem !important;
+}
