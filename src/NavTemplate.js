@@ -5,7 +5,7 @@ import logo from './NA2.png'
 const NavTemplate = () => {
   console.log(logo)
   return (
-    <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar">
+    <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar">
       <Container>
       <Navbar.Brand href="#home" className="brand">
         <img
